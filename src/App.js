@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/registration' component={Registration} />
+        <Route path='/test/registration' component={Registration} />
         <Route path='/' component={Home} />
       </Switch>
     </BrowserRouter>
